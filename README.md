@@ -1,12 +1,62 @@
-# React + Vite
+# Food App
+Questa applicazione è stata sviluppata utilizzando React e Axios.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Food Random
+L'app si connette all'API di TheMealDB per recuperare una ricetta casuale.
+Vengono mostrati:
 
-Currently, two official plugins are available:
+- Il nome del piatto,
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- La zona geografica di origine,
 
-## Expanding the ESLint configuration
+- Le istruzioni di preparazione,
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- L'immagine del piatto,
+
+- Gli ingredienti in modo dinamico.
+
+- Attraverso il pulsante "Nuova Ricetta!" è possibile caricare una nuova ricetta casuale.
+
+## Food List
+L'app si connette all'API di TheMealDB per recuperare una ricetta casuale.
+Vengono mostrati:
+
+- La categoria del prodotto,
+
+- Una rapida descrizione,
+
+- Una foto del piatto/cibo in questione.
+
+---
+
+
+# Food App
+This application was developed using React and Axios.
+
+## Food Random
+The app connects to the TheMealDB API to fetch a random recipe.
+It displays:
+
+- The name of the dish,
+
+- The geographic area of origin,
+
+- The preparation instructions,
+
+- The dish image,
+
+- The ingredients dynamically.
+
+By clicking the "New Recipe!" button, you can load a new random recipe.
+
+## Food List
+The app connects to the TheMealDB API to fetch a list of recipes.
+It displays:
+
+- The product category,
+
+- A short description,
+
+- A photo of the dish/food.
+
+
