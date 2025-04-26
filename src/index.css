@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER STYLE */
+
+nav {
+    background-color: #dfb4b4;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+
+nav ul li {
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li:hover {
+    color: #ffcc00;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* FOOTER STYLE */
+
+.container-footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    color: white;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+/* RANDOM CARD STYLE*/
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.random-food-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 20px;
+}
+
+.meal-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    padding: 20px;
+}
+
+
+.meal-name {
+    font-size: 1.8rem;
+    color: #ff7b54;
+    margin-bottom: 10px;
+}
+
+.meal-area {
+    font-size: 1.2rem;
+    color: #999;
+    margin-bottom: 15px;
+}
+
+.meal-instructions {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.ingredient-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.ingredient-list li {
+    background: #f8f8f8;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+.meal-image-container {
+    text-align: center;
+}
+
+.meal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* BUTTON STYLE*/
+.button-container {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.random-button {
+    background-color: #ff7b54;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.random-button:hover {
+    background-color: #ff5722;
+}
+
+/* LISTA COMPLETA STYLE */
+
+/* Titolo generale */
+.title-lists {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 40px 0;
+    color: #333;
+}
+
+/* Contenitore delle card */
+.container-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2.5rem;
+    padding: 40px;
+}
+
+/* Card categoria */
+.category-card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Titolo categoria */
+.category-title {
+    font-size: 1.8rem;
+    color: #ff7b54;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Descrizione categoria */
+.category-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    height: 150px;
+    /* Limita la descrizione */
+    overflow: auto;
+}
+
+/* Immagine */
+.category-image-container-lists {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.category-image-lists {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
